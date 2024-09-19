@@ -27,7 +27,6 @@ document.addEventListener("DOMContentLoaded", function () {
     window.location.href = "login.html";
   }
 
-  // Lógica para o botão de logout
   document.getElementById("logout").addEventListener("click", function (event) {
     event.preventDefault();
     if (confirm("Tem certeza de que deseja sair?")) {

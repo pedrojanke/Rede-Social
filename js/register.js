@@ -7,8 +7,7 @@ document
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
 
-    const registerMessage = document.getElementById("registerMessage"); // Obtém a div de mensagem
-
+    const registerMessage = document.getElementById("registerMessage");
     if (name && email && password) {
       let users = JSON.parse(localStorage.getItem("users")) || [];
 
@@ -24,10 +23,9 @@ document
         registerMessage.textContent = "Cadastro realizado com sucesso!";
         registerMessage.style.color = "green";
 
-        // Após 2 segundos, redireciona para login.html
         setTimeout(() => {
           window.location.href = "login.html";
-        }, 2000); // 2000 ms = 2 segundos
+        }, 2000);
       }
     } else {
       registerMessage.textContent = "Preencha todos os campos.";

@@ -5,51 +5,51 @@
   object-fit: cover;
   border-radius: 50%;
   display: block;
-  margin: 20px auto; /* Espaço adicional em cima e embaixo */
-  transition: transform 0.3s ease; /* Efeito de transformação */
+  margin: 20px auto;
+  transition: transform 0.3s ease;
 }
 
 #userAvatar:hover {
-  transform: scale(1.05); /* Aumenta um pouco ao passar o mouse */
+  transform: scale(1.05);
 }
 
 .card {
   border-radius: 10px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra mais pronunciada */
-  transition: box-shadow 0.3s ease; /* Efeito de sombra ao passar o mouse */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
 }
 
 .card:hover {
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
 .card-header {
   border-bottom: 1px solid #dee2e6;
-  background-color: #f1f1f1; /* Fundo claro para o cabeçalho */
-  padding: 15px; /* Espaçamento adicional */
+  background-color: #f1f1f1;
+  padding: 15px;
 }
 
 .card-title {
-  font-size: 1.8rem; /* Tamanho maior do título */
+  font-size: 1.8rem;
   font-weight: bold;
-  color: #343a40; /* Cor escura para maior contraste */
+  color: #343a40;
 }
 
 .card-text {
   font-size: 1.2rem;
-  color: #6c757d; /* Cor mais suave para o texto */
+  color: #6c757d;
 }
 
 .btn-block {
-  padding: 12px; /* Aumentar o espaçamento do botão */
-  font-size: 1.2rem; /* Tamanho maior da fonte */
-  background-color: #007bff; /* Cor do fundo do botão */
-  color: white; /* Cor do texto do botão */
-  border: none; /* Remover bordas */
-  border-radius: 5px; /* Bordas arredondadas */
-  transition: background-color 0.3s ease; /* Efeito de transição */
+  padding: 12px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 .btn-block:hover {
-  background-color: #0056b3; /* Cor ao passar o mouse */
+  background-color: #0056b3;
 }
