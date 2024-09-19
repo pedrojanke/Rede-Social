@@ -23,6 +23,11 @@ textarea {
   bottom: 10px;
 }
 
+.edit-btn {
+  right: 95px;
+  bottom: 10px;
+}
+
 .comment-input {
     margin-top: 1rem;
   }
