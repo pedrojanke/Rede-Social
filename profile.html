@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Perfil</title>
+    <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/profile.css" />
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">MinhaRedeSocial</a>
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Feed</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="logout" href="#">Sair</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Perfil -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-8 mx-auto text-center">
+                <img id="userAvatar" src="path/to/avatar.jpg" alt="Avatar" class="img-fluid mb-3" />
+                <h3>Meu Perfil</h3>
+                <div>
+                    <p><strong>Nome:</strong> <span id="userName"></span></p>
+                    <p>
+                        <strong>Descrição:</strong> <span id="userDescription"></span>
+                    </p>
+                    <p><strong>Idade:</strong> <span id="userAge"></span></p>
+                    <p><strong>Signo:</strong> <span id="userSign"></span></p>
+                </div>
+                <a href="editProfile.html" class="btn btn-primary btn-block">Editar Perfil</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/profile.js"></script>
+</body>
+</html>
