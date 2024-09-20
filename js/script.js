@@ -173,7 +173,7 @@ document
       const newPost = {
         username: currentUser,
         content: newPostContent,
-        profilePicture: "url_da_imagem_perfil.jpg", // Substitua pela URL real
+        profilePicture: "url_da_imagem_perfil.jpg",
         likes: 0,
         likedBy: [],
         comments: [],
