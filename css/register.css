@@ -1,21 +1,58 @@
-body {
+/* Register Styles */
+body.register {
   background-color: #f8f9fa;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #495057;
 }
 
 .card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
   margin-top: 50px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
 }
 
 h3 {
+  font-size: 1.8rem;
+  color: #343a40;
   margin-bottom: 20px;
   text-align: center;
+  letter-spacing: 0.5px;
 }
 
 #registerMessage {
-  color: red;
+  margin-top: 15px;
+  font-size: 1.1rem;
+  color: #e63946;
+  text-align: center;
   font-weight: bold;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-block:hover {
+  background-color: #0056b3;
+  box-shadow: 0 6px 20px rgba(0, 86, 179, 0.4);
 }

@@ -45,9 +45,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
       localStorage.setItem("userProfile", JSON.stringify(updatedProfile));
 
-      alert("Perfil atualizado com sucesso!");
-
-      window.location.href = "profile.html";
+      const successMessageDiv = document.getElementById("successMessage");
+      successMessageDiv.innerText = "Perfil atualizado com sucesso!";
+      successMessageDiv.style.display = "block";
+      
+      setTimeout(function () {
+        window.location.href = "profile.html";
+      }, 1000);
     });
 
   document.getElementById("logout").addEventListener("click", function () {

@@ -23,6 +23,13 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       userSignElement.style.display = "none";
     }
+
+    const userAvatarElement = document.getElementById("userAvatar");
+    if (userProfile.image) {
+      userAvatarElement.src = userProfile.image;
+    } else {
+      userAvatarElement.src = "path/to/default-avatar.jpg";
+    }
   } else {
     window.location.href = "login.html";
   }
