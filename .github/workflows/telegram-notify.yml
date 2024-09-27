@@ -17,5 +17,5 @@ jobs:
       run: |
         curl -s -X POST https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage \
           -d chat_id=${TELEGRAM_CHAT_ID} \
-          -d text="A new Pull Request was created for the main branch: ${{ github.event.pull_request.html_url }}"
+          -d text="Nova Pull Request foi criada para a branch Main: ${{ github.event.pull_request.html_url }}"
 
